@@ -276,7 +276,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.spes
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
 
 # FM
 PRODUCT_PACKAGES += \
@@ -464,8 +464,9 @@ PRODUCT_PACKAGES += \
     init.stnfc.rc \
     init.target.rc \
     init.xiaomi.rc \
-    ueventd.qcom.rc
-
+    ueventd.qcom.rc \
+    init.xiaomi.fingerprint.rc
+    
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
